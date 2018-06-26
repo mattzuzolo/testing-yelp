@@ -2,11 +2,15 @@ require "json"
 require "http"
 require "optparse"
 
+#How to search: $ruby yelp-api-test.rb search
+#change search terms in code on lines 24-27
+
 
 # Place holders for Yelp Fusion's API key. Grab it
 # from https://www.yelp.com/developers/v3/manage_app
-# API_KEY = None
-API_KEY = ENV["YELP_API_KEY"]
+API_KEY = None
+#API_KEY = ENV["YELP_API_KEY"]
+
 
 #
 
